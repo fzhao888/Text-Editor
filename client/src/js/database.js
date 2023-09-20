@@ -51,7 +51,6 @@ export const getDb = async () => {
   
   result[0]? console.log('Got all results from db', result[0].value):console.log('db empty');
 
-  return result[0]?result[0].value:'';
 };
 
 initdb();
