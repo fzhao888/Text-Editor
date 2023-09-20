@@ -10,7 +10,7 @@ This text editor was created to help developers code offline. As a developer, I 
 - [Usage](#usage)
 - [License](#license)
 - [How To Contribute](#how-to-contribute)
-- [Tests](#tests)
+- [Credits](#credits)
 - [Questions](#questions)
 
 ## Installation
@@ -35,9 +35,9 @@ License Link: https://opensource.org/licenses/MIT
 
 Please click [here](github.com/fzhao888/Text-Editor) to contribute 
 
-## Tests
+## Credits
 
-N/A
+Shouts to the University of Minnesota Bootcamp Module 19 Mini Project!
 
 ## Questions
 
