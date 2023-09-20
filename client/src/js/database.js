@@ -30,8 +30,6 @@ export const putDb = async (content) => {
   const result = await request;
   console.log('Added results to db', result);
 
-  return result;
-
 }
 
 // TODO: Add logic for a method that gets all the content from the database
@@ -49,10 +47,11 @@ export const getDb = async () => {
   const request = store.getAll();
 
   // Get confirmation of the request.
-  const result = await request;
-  console.log('Got all results from db', result);
+  const result = await request; 
+  
+  result[0]? console.log('Got all results from db', result[0].value):console.log('db empty');
 
-  return result;
+  return result[0]?result[0].value:'';
 };
 
 initdb();
